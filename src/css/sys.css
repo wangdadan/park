@@ -1,0 +1,50 @@
+.tool {
+  margin-bottom: 20px;
+}
+
+.page {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.table-name {
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.select {
+  margin-bottom: 20px;
+}
+
+.tree {
+  min-height: 300px;
+}
+
+.w400 {
+  width: 400px;
+}
+
+.reg-item {
+  width: 400px;
+}
+
+.custom-tree-node {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-right: 8px;
+}
+
+.tree-btn {
+  margin: 0;
+  border: none;
+}
+
+.search {
+  width: 260px;
+  margin-left: 50px;
+}

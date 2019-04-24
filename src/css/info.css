@@ -1,0 +1,25 @@
+.tool {
+  margin-bottom: 20px;
+}
+
+.page {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.w800 {
+  width: 800px;
+}
+
+.editor {
+  width: 860px;
+  height: 300px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.search {
+  width: 260px;
+  margin-left: 50px;
+}

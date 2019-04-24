@@ -1,0 +1,142 @@
+.login {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  background: url("./../assets/images/login-bg.png") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.top {
+  height: 40px;
+  line-height: 40px;
+  background: #0863AA;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.bottom {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  background: #0863AA;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 300px;
+}
+
+.tabs {
+  text-align: center;
+}
+
+.tab {
+  display: inline-block;
+  background: url("./../assets/images/tab-2.png") no-repeat;
+  width: 138px;
+  height: 36px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  line-height: 36px;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.sel {
+  background: url("./../assets/images/tab-1.png") no-repeat;
+  color: #333;
+}
+
+.forms {
+  background: #E6EBEE;
+  padding: 20px 35px;
+  position: relative;
+  top: -1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+.line {
+  width: 52px;
+  height: 1px;
+  background: #D81515;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 24px;
+}
+
+.submit {
+  width: 260px;
+  height: 44px;
+  background: #75061B;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.reg-link {
+  font-size: 16px;
+  color: #0763ac;
+  text-align: center;
+  cursor: pointer;
+}
+
+.code-item {
+  position: relative;
+}
+
+.code-input {
+  width: 140px;
+}
+
+.getcode {
+  width: 114px;
+  background: #75061B;
+  color: #fff;
+}
+
+.disabled:hover {
+  color: #fff;
+  background-color: #A7767E;
+  border-color: #A7767E;
+}
+
+.reg-item {
+  width: 400px;
+}
+
+.login-code-input {
+  width: 96px;
+}
+
+.login-code-img {
+  cursor: pointer;
+  height: 40px;
+}

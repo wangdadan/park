@@ -1,0 +1,188 @@
+.tool {
+  margin-bottom: 20px;
+}
+
+.page {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.w {
+  width: 300px;
+}
+
+.w2 {
+  width: 200px;
+}
+
+.map-title {
+  width: 150px;
+  text-align: right;
+  color: #999;
+  font-size: 16px;
+}
+
+.map {
+  width: 900px;
+  height: 300px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.imgcon {
+  width: 800px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.ptitle {
+  width: 100px;
+  text-align: right;
+  margin: 10px 0;
+}
+
+.crop {
+  width: 100%;
+  height: 300px !important;
+}
+
+.imgbtn {
+  margin-top: 20px;
+}
+
+.imglist-item {
+  width: 148px;
+  height: 148px;
+  line-height: 146px;
+  vertical-align: top;
+  text-align: center;
+  margin-right: 20px;
+  border: 1px dashed #c0ccda;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.imglist-item:hover .imglist-item-tool {
+  display: block;
+}
+
+.imgadd {
+  font-size: 28px;
+  color: #8c939d;
+  background-color: #fbfdff;
+  border: 1px dashed #c0ccda;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 148px;
+  height: 148px;
+  cursor: pointer;
+  line-height: 146px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.imgadd:hover {
+  border-color: #409eff;
+  color: #409eff;
+}
+
+.imglist-item-tool {
+  display: none;
+  position: absolute;
+  width: 100%;
+  border-radius: 6px;
+  top: 0;
+  left: 0;
+  font-size: 28px;
+  color: #8c939d;
+}
+
+.imglist-item-tool:hover {
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+  cursor: default;
+}
+
+.imglist-item-tool-i {
+  margin: 0 5px;
+}
+
+.imglist-item-tool-i:hover {
+  cursor: pointer;
+}
+
+.search {
+  width: 260px;
+  margin-left: 50px;
+}
+
+.tosee:hover {
+  color: #409EFF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.seecon-title {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.qrcode-box {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.qrcode {
+  display: inline-block;
+  border: 1px solid #999;
+  padding: 3px;
+}
+
+.qrcode-box img {
+  width: 150px;
+  height: 150px;
+}
+
+.qrcode-des {
+  margin-top: 20px;
+  line-height: 18px;
+}
+
+.seeform-item {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+
+.seecon-row-label {
+  font-size: 16px;
+  color: #999;
+  width: 150px;
+  text-align: right;
+  padding: 5px 2px;
+}
+
+.seecon-row-value {
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  padding: 5px 2px;
+}
+hr{
+  margin: 30px auto;
+  width: 90%;
+}
+.seecon-a-a {
+  width: 45%;
+}
+
+.seecon-c-a, .seecon-c-b {
+  width: 50%;
+}

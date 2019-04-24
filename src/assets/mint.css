@@ -1,0 +1,25 @@
+.mint-tab-item-label {
+  color: inherit;
+  font-size: 14px !important;
+  line-height: 1;
+}
+
+.tabbar .iconfont {
+  padding-bottom: 2px;
+}
+
+.cell {
+  text-decoration: none !important;
+}
+
+.photo input {
+  display: none;
+}
+
+.madvinfo .el-upload {
+  display: none;
+}
+
+.mnewsdes .ql-editor img, .mnoticedes .ql-editor img {
+  max-width: 100%;
+}
